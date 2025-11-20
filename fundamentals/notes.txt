@@ -1,0 +1,6 @@
+package main ->
+
+fmt package -> We are importing fmt package to use the println command
+            -> fmt package stands for format and it's used for formatted input and output
+
+in terminal -> cd directory_name and then go run command -> ex: go run hello_world.go 
