@@ -1,6 +1,18 @@
-package main ->
+# package main ->
 
-fmt package -> We are importing fmt package to use the println command
+# fmt package -> We are importing fmt package to use the println command
             -> fmt package stands for format and it's used for formatted input and output
 
-in terminal -> cd directory_name and then go run command -> ex: go run hello_world.go 
+# in terminal -> cd directory_name and then go run command -> ex: go run hello_world.go 
+
+# the most important part initially is for you to understand the importance of the package name,
+main and the main function. The package name main holds special significance. it informs the
+go compiler that this package is intended to be transformed into a stand alone executable.
+every executable program you create in go must include a main package. when the compiler 
+encounters the main package, it expects to find a function named main within it. in order for 
+go to compile and execute our program, it needs the package main and the function main.
+
+
+# 'go build' and 'go run' -> With go build we are making an executable file, 
+a persistent executable file.
+But when we use go run we are not making a persistent executable file.
